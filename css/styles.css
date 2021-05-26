@@ -1,0 +1,129 @@
+body {
+
+    background:
+  linear-gradient(50deg, rgba(186, 231, 240, 0.384) 23%, transparent 25%) 7px 0,
+  linear-gradient(50deg, transparent 76%, rgba(199, 208, 247, 0.212) 78%),
+  linear-gradient(40deg, transparent 40%, rgba(213, 229, 247, 0.89) 55%, rgba(201, 229, 248, 0.884) 58%, transparent 55%),
+  rgba(203, 233, 240, 0.507); 
+  background-size: 8px 22px;
+  
+    /* background-image: linear-gradient(to top, #1e9dbd 0%, #a2ddfa 100%); */
+    
+    }
+    
+  
+    .container {
+      text-align: center;
+      padding: 20px; /*отступы со всех сторон одинаковы, между внутренним краем рамки элемента и его содержимым*/
+      height: 100px; /*высота блока "калькулятор"*/
+    }
+    .page-title {
+      font-family: "Noto Serif", serif;
+      color: #1e325c;
+      /* margin: 25 0 5px; */
+    }
+  
+  .calculator {
+    margin: 0 auto; /*тк пространство по бокам auto- одинаково, то получается посередине */
+    width: 294px; /*ширина темного поля*/
+    /* background-color: rgb(117, 115, 143); */
+    border-radius: 4px;
+    background-color: rgb(10, 6, 46);
+    border: 4px solid rgb(10, 11, 73);
+    box-shadow: 10px 10px 10px 2px rgb(24, 45, 85);
+     
+  }
+  
+  .screen {
+    width: 279px;
+    /* border: 0; */
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 15px;/*отступ справа*/
+    padding-top: 20px;/*цифры на экране по центру строки*/
+    text-align: right;
+    margin-right: 15px;
+    font-size: 2.2rem;
+    color: rgb(6, 7, 75);
+    background-color: rgb(221, 239, 252);
+    box-shadow: 0 0 0 2px rgb(171, 185, 214);
+    overflow-x: auto; /*появляется полоса прокрутки горизонтальная*/
+    /* transition: all 1.9s ease-in-out; */
+  }
+  
+  .signs div {
+    color: white;
+    /* color: rgb(16, 41, 122); */
+    display: inline-block;
+    /* border: 0; */
+    border-radius: 1px;
+    width: 40px;
+    text-align: center;
+    font-weight:bold;
+    padding: 10px;
+    margin: 20px 4px 10px;
+    cursor: pointer;
+    background-color: rgb(6, 7, 75);
+    box-shadow: 3px 3px 3px 2px rgb(15, 36, 77);
+    transition: all 0.25s;
+  }
+  .signs div:hover {
+    background: #76b9f0;
+    /* color: #000; */
+    color: rgb(16, 41, 122);
+    box-shadow: 0 0 0 3px rgb(95, 174, 240);
+  }
+  
+  .panel-numbers {
+    display: inline-block;
+    margin: auto;
+  }
+  
+  .numbers div{
+    color: rgb(16, 41, 122);
+    /* color: white; */
+    font-weight:bold;
+    display: inline-block;
+    /* border: 0; */
+    border-radius: 1px;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 14px;
+    cursor: pointer;
+    background-color: #d9eef7;
+    
+    box-shadow: 3px 3px 3px 2px #c3dde79d;
+    /* box-shadow: 3px 3px 3px 2px rgb(121, 137, 167); */
+    /* transition: all 0.5s ease-out 0s; */
+    transition: all 0.25s;
+  }
+  .numbers div:hover {
+    /* background: #76b9f0; */
+    background: rgb(118, 226, 245);
+    box-shadow: 0 0 0 3px  rgb(125, 210, 231);
+  }
+  
+  .equal {
+    display: inline-block;
+    /* border: 0; */
+    border-radius: 1px;
+    font-weight:bold;
+    width: 40px;
+    text-align: center;
+    padding: 103px 10px;
+    margin: 10px 6px 27px;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: rgb(6, 7, 75);
+    box-shadow: 3px 3px 3px 2px rgb(18, 40, 80);
+    /* transition: all .2s ease-in-out; */
+    transition: all 0.25s;
+  }
+  .equal:hover {
+    background: #76b9f0;
+    /* color: #000; */
+    color: rgb(16, 41, 122);
+    box-shadow: 0 0 0 3px rgb(95, 174, 240);
+  }
