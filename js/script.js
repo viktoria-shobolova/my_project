@@ -5,7 +5,6 @@ result = document.getElementById('result'),
 clean = document.getElementById('clean'),
 resultShow = false; 
 
-
  // запуск цикла нажатия кнопок с цифрами
  for (let i = 0; i < number.length; i++) {
   number[i].addEventListener("click", function(e) {
@@ -58,7 +57,7 @@ result.addEventListener("click", function() {
      numbers.splice(multiply, 2, numbers[multiply] * numbers[multiply + 1]);
      signs.splice(multiply, 1);
      multiply = signs.indexOf("×");
-   }
+  }
 
    let divide = signs.indexOf("÷"); 
    while (divide != -1) {

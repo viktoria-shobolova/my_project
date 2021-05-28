@@ -40,14 +40,11 @@ body {
     background-color: rgb(221, 239, 252);
     box-shadow: 0 0 0 2px rgb(171, 185, 214);
     overflow-x: auto;
-  
   }
   
   .signs div {
     color: white;
-    /* color: rgb(16, 41, 122); */
     display: inline-block;
-   
     border-radius: 1px;
     width: 40px;
     text-align: center;
@@ -62,7 +59,6 @@ body {
 
   .signs div:hover {
     background: #76b9f0;
-   
     color: rgb(16, 41, 122);
     box-shadow: 0 0 0 3px rgb(95, 174, 240);
   }
@@ -74,10 +70,8 @@ body {
   
   .numbers div{
     color: rgb(16, 41, 122);
-    
     font-weight:bold;
     display: inline-block;
-   
     border-radius: 1px;
     width: 40px;
     text-align: center;
@@ -86,19 +80,16 @@ body {
     cursor: pointer;
     background-color: #d9eef7;
     box-shadow: 3px 3px 3px 2px #c3dde79d;
-    
     transition: all 0.25s;
   }
 
   .numbers div:hover {
-    
     background: rgb(118, 226, 245);
     box-shadow: 0 0 0 3px  rgb(125, 210, 231);
   }
   
   .equal {
     display: inline-block;
-   
     border-radius: 1px;
     font-weight:bold;
     width: 40px;
@@ -110,7 +101,6 @@ body {
     color: #FFF;
     background-color: rgb(6, 7, 75);
     box-shadow: 3px 3px 3px 2px rgb(18, 40, 80);
-    
     transition: all 0.25s;
   }
 
